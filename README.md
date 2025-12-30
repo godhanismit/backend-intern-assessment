@@ -135,8 +135,27 @@ The frontend will be available at http://localhost:5173.
 ### Frontend (frontend/.env)
 - VITE_API_URL
 
-
 Note: Actual values are intentionally not included for security reasons.
+
+## Testing
+
+Backend APIs are covered with basic unit and integration tests focusing on authentication and authorization flows.
+
+### Tools Used
+- Jest
+- Supertest
+
+### Running Tests Locally
+
+```bash
+cd backend
+npm test
+```
+
+## CI/CD
+
+GitHub Actions is configured to automatically run backend tests on every push and pull request.
+
 
 ## Deployment Instructions
 ### Backend Deployment (Render)
@@ -295,6 +314,10 @@ Example:
 
 Email: admin@admin.com
 Password: Admin@123
+
+## CI/CD
+
+GitHub Actions is configured to automatically run backend tests on every push and pull request.
 
 
 Admins can access the admin dashboard and manage users.
