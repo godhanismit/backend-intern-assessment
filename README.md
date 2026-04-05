@@ -3,7 +3,7 @@
 ## Project Overview & Purpose
 
 This project is a User Management System built as part of a backend intern assessment.
-It allows users to register, log in, and manage their personal profile, while admin users can manage all users through a protected admin dashboard.
+It allows users to register, log in, and manage their personal profile, while admin users can manage all users through a protected admin dashboard for security.
 
 The system demonstrates:
 
